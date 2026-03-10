@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="CalculatorSuite">
+
+    <test name="CalculatorTests">
+
+        <classes>
+
+            <class name="test.Calculator_dotNet.Math_fun"/>
+            <class name="test.Calculator_dotNet.calculator_links"/>
+            <class name="test.Calculator_dotNet.Search"/>
+            <class name="test.Calculator_dotNet.Sign_in"/>
+
+        </classes>
+
+    </test>/
+    
+    </suite>
