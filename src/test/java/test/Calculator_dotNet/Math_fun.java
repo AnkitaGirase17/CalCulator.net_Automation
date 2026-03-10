@@ -17,7 +17,7 @@ public class Math_fun extends Launch_webderiver {
 	void substraction() {
 		driver.findElement(By.xpath("//span[text()='1']")).click();
 		driver.findElement(By.xpath("//span[text()='8']")).click();
-		driver.findElement(By.xpath("//span[text()='−']")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[2]/span[4]")).click();
 		driver.findElement(By.xpath("//span[text()='3']")).click();
 		driver.findElement(By.xpath("//span[text()='=']")).click();
 	}
@@ -34,7 +34,7 @@ public class Math_fun extends Launch_webderiver {
 	void division() {
 		driver.findElement(By.xpath("//span[text()='4']")).click();
 		driver.findElement(By.xpath("//span[text()='0']")).click();
-		driver.findElement(By.xpath("//span[text()='÷']")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[4]/span[4]")).click();
 		driver.findElement(By.xpath("//span[text()='6']")).click();
 		driver.findElement(By.xpath("//span[text()='=']")).click();
 	}
@@ -71,7 +71,7 @@ public class Math_fun extends Launch_webderiver {
 	void ntv_ptv_no() {
 		driver.findElement(By.xpath("//*[@id='sciout']/tbody/tr[2]/td[2]/div/div[5]/span[1]")).click();
 		driver.findElement(By.xpath("//span[text()='7']")).click();
-		driver.findElement(By.xpath("//span[text()='−']")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[2]/span[4]")).click();
 		driver.findElement(By.xpath("//span[text()='1']")).click();
 		driver.findElement(By.xpath("//span[text()='=']")).click();
 	}
@@ -243,7 +243,7 @@ public class Math_fun extends Launch_webderiver {
 		driver.findElement(By.xpath("//*[@id='homefunbtn']/div[5]/span[1]")).click();
 		driver.findElement(By.xpath("//span[text()='1']")).click();
 		driver.findElement(By.xpath("//span[text()='0']")).click();
-		driver.findElement(By.xpath("//span[text()='−']")).click();
+		driver.findElement(By.xpath("//*[@id=\"sciout\"]/tbody/tr[2]/td[2]/div/div[2]/span[4]")).click();
 		driver.findElement(By.xpath("//span[text()='5']")).click();
 		driver.findElement(By.xpath("//*[@id='homefunbtn']/div[5]/span[2]")).click();
 		driver.findElement(By.xpath("//span[text()='×']")).click();

@@ -19,7 +19,7 @@ public class Launch_webderiver {
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://www.calculator.net/");
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    }
 	    
 	    @AfterClass
